@@ -1,28 +1,43 @@
 .container {
-    width: 1600px;
-    height: 640px;
+    width: 1349px;
+    height: 718px;
     background-color: black;
-    background-image: url('./Imagen2.jpg');
     background-repeat: no-repeat;
-    background-position: 20% 80%;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
     top: 0px;
     left: 0px;
 }
-
-.box {
-    width: 300px;
-    height: 300px;
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+}
+.boxperfil {
+    width: 150px;
+    height: 150px;
     border-radius:150px;
     border:5px solid rgb(255, 255, 255);
-    background-image: url('./Imagen4.jpg');
+    background-image: url('./Perfil1.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: 75% 95%;
+    background-size: 110%;
     position: absolute;
-    top: 130px;
-    left: 525px;
+    top: 16%;
+    left: 45%;
 
 }
+.persona {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: calibri;
+  }
