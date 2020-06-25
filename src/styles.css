@@ -1,3 +1,8 @@
+@font-face{
+    font-family: pattaya;
+    src: url('./Pattaya.ttf');
+}
+
 .container {
     width: 1349px;
     height: 718px;
@@ -39,5 +44,5 @@ img {
     text-align: center;
     font-size: 24px;
     color: rgb(255, 255, 255);
-    font-family: rockwell;
+    font-family: pattaya;
   }
